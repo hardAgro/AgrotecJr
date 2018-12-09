@@ -12,8 +12,7 @@ namespace Inova.Farm.SistemaInterfaceWeb.ViewModel
             this.StagesMonitored = new List<ProductionStage>();
         }
 
-        public IndexViewModel(string name, string fruitName, int numberOfDifferentStages, 
-             List<int> irrigation, List<int> soilCondition, List<string>stage, string farmName) : this()
+        public IndexViewModel(string name, string fruitName, int numberOfDifferentStages, List<int> soilCondition, List<string>stage, string farmName) : this()
         {
             string soilConditionCategory, irrigationCategory;
             this.Name = name;

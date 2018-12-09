@@ -147,6 +147,7 @@
     <Compile Include="Models\SoilCondition.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Repository\GenericRepository.cs" />
+    <Compile Include="Controllers\ServiceIrrigation.cs" />
     <Compile Include="ViewModel\IndexViewModel.cs" />
   </ItemGroup>
   <ItemGroup>

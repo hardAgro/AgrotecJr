@@ -81,3 +81,4 @@ C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm.SistemaInterfaceWeb\bin\En
 C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm.SistemaInterfaceWeb\bin\EntityFramework.SqlServer.dll
 C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm.SistemaInterfaceWeb\bin\EntityFramework.xml
 C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm.SistemaInterfaceWeb\bin\EntityFramework.SqlServer.xml
+C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm.SistemaInterfaceWeb\obj\Debug\Inova.Farm.SistemaInterfaceWeb.csprojAssemblyReference.cache
