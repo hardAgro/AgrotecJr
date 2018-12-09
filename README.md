@@ -18,5 +18,7 @@ Licenças
 
 AdminLTE - MIT License
 Arduino - Creative Commons Attribution Share-Alike 
+ASP NET - Licença gratuita por usuário
+SQL Server - Licença por usuário
 
 
