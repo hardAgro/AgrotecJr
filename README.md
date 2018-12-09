@@ -8,7 +8,9 @@ SQL Server 2014
 
 Instalação
 
-Para o banco de dados, é preciso executar os scripts na pasta de Modelagem de Banco de dados. O script Startup e para inserir dados para teste executar o script testeSetUp.
+Para o banco de dados, é preciso executar os scripts da pasta de Modelagem de Banco de dados. O script Startup e para inserir dados para teste executar o script testeSetUp. Para a execução desses scripts é preciso utilizar o SQL Server 2014 Management Studio  e para executar o projeto é preciso utilizar o Visual Studio 2017.
+
+
 
 Proposta
 
@@ -17,6 +19,11 @@ O nosso produto pretender realizar a medição da umidade em pontos estratégico
 Licenças
 
 AdminLTE - MIT License
+
 Arduino - Creative Commons Attribution Share-Alike 
+
+ASP NET - Licença gratuita por usuário
+
+SQL Server - Licença por usuário
 
 
