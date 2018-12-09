@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inova.Farm.Web", "Inova.Farm\Inova.Farm.Web.csproj", "{53AC4A1F-D3A6-4AAD-86C2-00B77076E4C7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inova.Farm.WebService", "Inova.Farm.WebService\Inova.Farm.WebService.csproj", "{BF089982-B4D5-49CD-BFB4-63965CD2F63F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inova.Farm.Domain", "Inova.Farm.Domain\Inova.Farm.Domain.csproj", "{AF5FA33F-C9D4-45C6-9C16-0E554BDD07CB}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inova.Farm.Migration", "Inova.Farm.Migration\Inova.Farm.Migration.csproj", "{7D4A9B15-6C39-40F5-BBA8-BB0530671A79}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inova.Farm.SistemaInterfaceWeb", "Inova.Farm.SistemaInterfaceWeb\Inova.Farm.SistemaInterfaceWeb.csproj", "{752F7767-C056-4B31-AE44-E49EB211D945}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,22 +13,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{53AC4A1F-D3A6-4AAD-86C2-00B77076E4C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{53AC4A1F-D3A6-4AAD-86C2-00B77076E4C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{53AC4A1F-D3A6-4AAD-86C2-00B77076E4C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{53AC4A1F-D3A6-4AAD-86C2-00B77076E4C7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BF089982-B4D5-49CD-BFB4-63965CD2F63F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BF089982-B4D5-49CD-BFB4-63965CD2F63F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF089982-B4D5-49CD-BFB4-63965CD2F63F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF089982-B4D5-49CD-BFB4-63965CD2F63F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AF5FA33F-C9D4-45C6-9C16-0E554BDD07CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AF5FA33F-C9D4-45C6-9C16-0E554BDD07CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AF5FA33F-C9D4-45C6-9C16-0E554BDD07CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AF5FA33F-C9D4-45C6-9C16-0E554BDD07CB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{7D4A9B15-6C39-40F5-BBA8-BB0530671A79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7D4A9B15-6C39-40F5-BBA8-BB0530671A79}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7D4A9B15-6C39-40F5-BBA8-BB0530671A79}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7D4A9B15-6C39-40F5-BBA8-BB0530671A79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{752F7767-C056-4B31-AE44-E49EB211D945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{752F7767-C056-4B31-AE44-E49EB211D945}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{752F7767-C056-4B31-AE44-E49EB211D945}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{752F7767-C056-4B31-AE44-E49EB211D945}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -78,3 +78,6 @@ C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm\bin\WebGrease.dll
 C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm\bin\Antlr3.Runtime.pdb
 C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm\bin\Newtonsoft.Json.xml
 C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm\bin\System.Web.Optimization.xml
+C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm\bin\AdminLte.dll
+C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm\bin\AdminLte.pdb
+C:\Users\Victória\source\repos\Inova.Farm\Inova.Farm\bin\AdminLte.xml

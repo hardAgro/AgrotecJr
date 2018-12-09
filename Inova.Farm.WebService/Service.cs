@@ -1,4 +1,4 @@
-﻿using Inova.Farm.Domain;
+﻿using Inova.Farm.SistemaInterfaceWeb.Models;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -24,9 +24,8 @@ namespace Inova.Farm.WebService
         public async Task<Irrigation> CalculateIrrigation(User user, CurrentProduction production)
         {
             HttpClient client = new HttpClient();
-
-            SoilCondition soilCondition = new SoilCondition();
-            HttpResponseMessage response = client.GetAsync(new Uri(/*STRING DE URL*/));
+            Irrigation irrigation = new Irrigation();
+            HttpResponseMessage response = new HttpResponseMessage();
             if (response.IsSuccessStatusCode)
             {
                 Stream stream = await response.Content.ReadAsStreamAsync();
@@ -39,7 +38,7 @@ namespace Inova.Farm.WebService
                 }
             }
             //faz calculo de quantidade q deve ser irrigada
-
+            
             return null;
 
         }

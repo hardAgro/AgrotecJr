@@ -52,14 +52,14 @@
     <Compile Include="Service.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Inova.Farm.Domain\Inova.Farm.Domain.csproj">
-      <Project>{AF5FA33F-C9D4-45C6-9C16-0E554BDD07CB}</Project>
-      <Name>Inova.Farm.Domain</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Inova.Farm.SistemaInterfaceWeb\Inova.Farm.SistemaInterfaceWeb.csproj">
+      <Project>{752F7767-C056-4B31-AE44-E49EB211D945}</Project>
+      <Name>Inova.Farm.SistemaInterfaceWeb</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

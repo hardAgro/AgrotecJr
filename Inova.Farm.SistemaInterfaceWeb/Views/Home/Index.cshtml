@@ -1,0 +1,23 @@
+﻿@model Inova.Farm.SistemaInterfaceWeb.ViewModel.IndexViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>@Model.FarmName</h1>
+    <p class="lead">Bem vindo, @Model.Name</p>
+</div>
+
+<div class="row">
+    @foreach (var item in Model.StagesMonitored)
+    {
+        <div class="col-md-4">
+            <h2>@item.Stage</h2>
+            <p>
+                A umidade do solo nessa região está @item.SoilCondition
+                Recomendamos que a plantanção precisa de uma @item.IrrigationMeasure demanda de água.
+            </p>
+        </div>
+    }
+
+</div>
